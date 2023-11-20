@@ -1,0 +1,435 @@
+
+
+#about{
+  
+        /* marginTop: -15px;
+        display: "flex",
+        marginLeft: "-33%",
+        justifyContent: "center",
+        border:"2px solid red" */
+
+        margin-top: -15px;
+        display: flex;
+        margin-left: -33%;
+        justify-content: center;
+
+
+     
+}
+
+#dsaprob{
+    /* style={{
+        marginTop: "-15px",
+        display: "flex",
+        marginLeft: "-33%",
+        justifyContent: "center"
+     }} */
+     margin-top: -15px;
+     display: flex;
+     margin-left: -33%;
+     justify-content: center;
+}
+#about1{
+  
+  /* marginTop: -15px;
+  display: "flex",
+  marginLeft: "-33%",
+  justifyContent: "center",
+  border:"2px solid red" */
+
+  margin-top: -15px;
+  display: flex;
+  margin-left: -33%;
+  justify-content: center;
+
+
+
+}
+
+#dsaprob1{
+/* style={{
+  marginTop: "-15px",
+  display: "flex",
+  marginLeft: "-33%",
+  justifyContent: "center"
+}} */
+margin-top: -15px;
+display: flex;
+margin-left: -33%;
+justify-content: center;
+}
+#tools{
+  zoom: 120%;
+}
+#techstack{
+
+    /* style={{ width: "1080px", margin: "auto", zoom: "0.75",  }} */
+    width: 1080px;
+    margin: auto;
+    zoom: 0.75;
+   }
+
+   #skill{
+    /* style={{ width: "1080px", margin: "auto", zoom: "0.75" }} */
+    width: 1080px;
+    margin: auto;
+    zoom: 0.75;
+   
+   }
+   #pronav{
+    /* style={{display:'flex', width:"500px", height:"395px", marginTop:"10px", }} */
+    display: flex;
+    width: 500px;
+    height: 395px;
+    margin-top: 10px;
+   }
+   #temp{
+    /* style={{ marginLeft:"-50px", marginTop:"17px",}} */
+    margin-left: -50px;
+    margin-top: 17px;
+   }
+   #statgit{
+    width: 100%;
+    
+    display: flex;
+    margin: auto;
+   }
+   .project-card{
+    /* style={{ display: "flex", margin: "auto", justifyContent: "space-evenly", width: "90%" }} 
+    */
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
+    width: 360px;
+   }
+   #projectimg{
+    width: 700px;
+    height: 395px;
+   }
+   #contacted>div:nth-child(1){
+    /* style={{width:"46%",display:"flex", flexDirection:"column", marginTop:"-27px", }} */
+    width: 46%;
+    display: flex;
+    flex-direction: column;
+    margin-top: -27px;
+   }
+   #contacted>div:nth-child(2){
+    /* style={{border:"4px solid #A3C8B9", borderRadius:"8px", width:"36%", height:"500px", paddingBottom:"20px"}} */
+    border: 4px solid #eec0c8;
+    border-radius: 8px;
+    width: 36%;
+    height: 500px;
+    padding-bottom: 20px;
+   }
+   #contacted{
+    /* style={{display:"flex", justifyContent:"space-around", marginTop:"20px",}} */
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+   }
+@media screen and (max-width: 800px )and (min-width: 450px) {
+    #name{
+        
+        margin-left: -15%;
+        width: 100%;
+        
+    }
+  
+    #profile{
+        
+         height: 250px;
+         width: 250px;
+         margin-left: -6.1%;
+         margin-bottom: 10px;
+    }
+    /* #home{
+        width: 800px;
+        margin-left: 0px;
+        border: 3px solid teal;
+    } */
+    #about{
+        zoom: 0.9;
+        width: 100%;
+        margin-left: -19.5%;
+        
+       
+    }
+
+    #dsaprob{
+        
+        zoom: 0.9;
+        width: 100%;
+        margin-left: -19.5%;
+    }
+    #about1{
+      zoom: 0.9;
+      width: 100%;
+      margin-left: -19.5%;
+      
+     
+  }
+
+  #dsaprob1{
+      
+      zoom: 0.9;
+      width: 100%;
+      margin-left: -19.5%;
+  }
+   #techstack{
+    
+    zoom: 0.6;
+   }
+  #skill{
+    zoom: 0.6;
+  }
+  #pronav{
+    
+    display: flex;
+    flex-direction: column;
+    
+    width: 500px;
+    height: 405px;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 0px;
+   }
+   #temp{
+    
+    margin-left: 0px;
+    margin-top: 15px;
+    zoom: 0.7;
+   }
+   .react-activity-calendar{
+    width: 90%;
+   }
+   #statgit{
+    display: flex;
+    flex-direction: column;
+   }
+   #contacted>div:nth-child(1){
+    /* style={{width:"46%",display:"flex", flexDirection:"column", marginTop:"-27px", }} */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: -27px;
+   }
+   #contacted>div:nth-child(2){
+    /* style={{border:"4px solid #A3C8B9", borderRadius:"8px", width:"36%", height:"500px", paddingBottom:"20px"}} */
+    border: 4px solid #eec0c8;
+    border-radius: 8px;
+    width: 90%;
+    height: 500px;
+    padding-bottom: 20px;
+    margin: auto;
+   }
+   #contacted{
+    /* style={{display:"flex", justifyContent:"space-around", marginTop:"20px",}} */
+    display: flex;
+   flex-direction: column;
+   }
+   #foot{
+    display: none;
+   }
+#legal{
+  display: none;
+}
+#tools{
+  zoom: 70%;
+}
+  }
+
+
+
+
+
+
+
+
+  @media screen and (max-width: 450px) {
+    #name{
+        
+        margin-left: -1.5%;
+        width: 360px;
+       zoom: 0.88;
+    }
+    #home{
+       
+    }
+    #profile{
+        zoom: 0.7;
+        margin-top: 60px;
+         height: 250px;
+         width: 250px;
+         margin-left: -8.1%;
+         margin-bottom: 30px;
+    }
+    /* #home{
+        width: 800px;
+        margin-left: 0px;
+        border: 3px solid teal;
+    } */
+    #about{
+        zoom: 0.65;
+        width: 200px;
+       margin-left: 20px;
+        
+       display: flex;
+       flex-direction: column;
+       height: 700px;
+       justify-content: space-around;
+    }
+
+    #dsaprob{
+        display: flex;
+        flex-direction: column;
+        zoom: 0.65;
+        width: 100%;
+        margin-top: -37.9%;
+        margin-left: 14.5%;
+        height: 465px;
+        justify-content: space-around;
+    }
+    #about1{
+      zoom: 0.75;
+      width: 300px;
+     margin: auto;
+      
+     display: flex;
+     flex-direction: column;
+     height: 700px;
+     justify-content: space-around;
+  }
+
+  #dsaprob1{
+      display: flex;
+      flex-direction: column;
+      zoom: 0.75;
+      width: 300px;
+      margin: auto;
+      height: 465px;
+      justify-content: space-around;
+  }
+   #techstack{
+     display: flex;
+       flex-direction: column;
+    zoom: 0.3;
+    margin-top: 20px;
+   }
+  
+  #skill{
+    margin-top: 20px;
+    zoom: 0.3;
+  }
+  #pronav{
+   
+    display: flex;
+    flex-direction: row;
+   
+    width: 100%;
+    height: 275px;
+    justify-content: space-evenly;
+    zoom: 0.6;
+    margin-right: 0px;
+    margin-top: -30px;
+    margin-bottom: 50px;
+    
+   }
+   .project-card{
+    display: flex;
+    flex-direction: column;
+    
+    padding: 5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(216, 233, 216, 0.23) 0px 3px 6px;
+   }
+   #projectimg{
+    width: auto;
+    height: auto;
+   }
+   
+   #temp{
+    
+    margin-left: 0px;
+    margin-top: 95px;
+    zoom: 0.7;
+   }
+   .react-activity-calendar{
+    width: 90%;
+   }
+   #statgit{
+    width: 360px;
+    
+    display: flex;
+    flex-direction: column;
+    zoom: 0.7;
+   }
+   #contacted>div:nth-child(1){
+    /* style={{display:"flex", justifyContent:"space-around", marginTop:"20px",}} */
+    zoom: 0.43;
+   
+   }
+   #foot{
+    display: none;
+   }
+   #legal{
+    display: none;
+  }
+  }
+
+
+
+
+
+
+  /* home.css */
+.popover-container {
+    position: relative;
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .popover-container.active .popover-content {
+    display: block;
+  }
+  
+  .popover-trigger-button {
+    background-color: #63b3ed;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .popover-content {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+    width: 200px;
+    background-color: #fff;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 10px;
+    display: none;
+  }
+  
+  .popover-close-button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    color: #555;
+  }
+  
+  .popover-header {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .popover-body {
+    color: #333;
+  }
+  

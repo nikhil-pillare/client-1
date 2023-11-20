@@ -1,0 +1,37 @@
+
+.App {
+  /* font-family: sans-serif; */
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  /* background: rgb(255,187,251);
+background: linear-gradient(90deg, rgba(255,187,251,1) 0%, rgba(255,233,253,1) 100%, rgba(0,212,255,1) 100%, rgba(251,206,245,1) 100%); */
+background: rgb(228,228,228);
+background: linear-gradient(90deg, rgba(228,228,228,1) 0%, rgba(255,255,255,1) 100%, rgba(0,212,255,1) 100%, rgba(251,206,245,1) 100%);
+
+}
+
+
+
+
+
+
+.hex {
+  cursor: pointer;
+}
+
+.hex.A div {
+  background: teal;
+}
+
+.hex.B div {
+  background: teal;
+}
+
+.hex:hover div {
+  border-color: #bb9 !important;
+  border-width: "3px";
+}
+
+.hex:active div {
+  border-color: #faf !important;
+}
