@@ -72,10 +72,10 @@ const Navigation = () => {
 
 
   return (
-    <>
+    <div id="nav-menu">
     
     <Flex
-    id="nav-menu"
+    
       as="nav"
       align="center"
       justifyContent={"space-evenly"}
@@ -84,10 +84,10 @@ const Navigation = () => {
       paddingBottom="0.5rem"
       // bg="#131313"
       bg={"rgb(138,53,114)"}
-     
+      
       bgGradient="linear(to-r, #8a3572, #bd8eb3, #ffd3f9)"
       color="#131313"
-      position={"fixed"}
+      // position={"fixed"}
       width={"100%"}
       zIndex={"2"}
     
@@ -125,21 +125,6 @@ const Navigation = () => {
             
             
         >
-
-
-
-
-
-               
-
-
-
-
-
-
-
-
-
 
 
 
@@ -353,7 +338,7 @@ const Navigation = () => {
           > Contact</Link>
         </Flex>
     </Box>
-    </>
+    </div>
     
 
     

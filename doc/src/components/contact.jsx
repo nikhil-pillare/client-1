@@ -237,7 +237,7 @@ export default function Contact() {
                             </div>
                        
                        
-                       <div >
+                       <div id='contactform'>
                         <h4 style={{fontSize:"30px",color:"#80289f", fontWeight:"bold"}}>Your Details</h4>
                        <form style={{display:"flex", flexDirection:"column", justifyContent:"space-around", alignItems:"center"}} action="https://getform.io/f/55008d41-8851-46ae-a77f-e1c70f30c943" method="POST">
 

@@ -3,7 +3,7 @@ import React from "react";
 // import NavigationBar from "./components/Nav";
 // import { Hex } from "./components/Hex";
 // import { Pro } from "./components/Pro";
-import "../styles.css";
+// import "../styles.css";
 import { Button } from "@chakra-ui/react";
 import { Hex } from "../components/Hex";
 import { Pro } from "../components/Pro";
@@ -17,7 +17,7 @@ export default function Appp() {
 
    return (
 
-      <div className="App" style={{ width: "100%", marginTop: "70px", paddingLeft: "0px" }}>
+      <div style={{ width: "100%", marginTop: "70px", paddingLeft: "0px" }}>
 
          <div id="home"  style={{ width: "1000px", margin: "auto", zoom: "1.25",}}>
             {/* <Pro        side={sin60+"px"}

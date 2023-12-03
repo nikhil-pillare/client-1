@@ -127,7 +127,7 @@ justify-content: center;
     justify-content: space-around;
     margin-top: 20px;
    }
-@media screen and (max-width: 800px )and (min-width: 450px) {
+@media screen and (max-width: 800px )and (min-width: 451px) {
     #name{
         
         margin-left: -15%;
@@ -252,9 +252,9 @@ justify-content: center;
         width: 360px;
        zoom: 0.88;
     }
-    #home{
-       
-    }
+    /* #home{
+       border: 2px solid green;
+    } */
     #profile{
         zoom: 0.7;
         margin-top: 60px;
@@ -362,9 +362,24 @@ justify-content: center;
     flex-direction: column;
     zoom: 0.7;
    }
+   #contacted{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   }
    #contacted>div:nth-child(1){
     /* style={{display:"flex", justifyContent:"space-around", marginTop:"20px",}} */
-    zoom: 0.43;
+    zoom: 0.63;
+   
+    width: 100%;
+   
+   }
+   #contacted>div:nth-child(2){
+    /* style={{display:"flex", justifyContent:"space-around", marginTop:"20px",}} */
+    zoom: 0.63;
+    
+    width: 90%;
+    margin: auto;
    
    }
    #foot{
